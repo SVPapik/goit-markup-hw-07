@@ -120,12 +120,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.site-nav-item:not(:last-child),
-.contacts:not(:last-child) {
+.site-nav__item:not(:last-child),
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav-link {
+.site-nav__link {
   display: block;
   padding: 32px 0;
   color: var(--title-text-color);
@@ -147,20 +147,20 @@ ul {
   background-color: currentColor;
 }
 
-.contacts-list {
+.contacts__list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.contacts-link {
+.contacts__link {
   display: flex;
   align-items: center;
   color: var(--primary-text-color);
   fill: currentColor;
 }
 
-.icon-contacts {
+.contacts__icon {
   margin-right: 10px;
 }
 

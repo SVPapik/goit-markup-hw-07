@@ -32,7 +32,9 @@
               <a href="./index.html" class="site-nav__link link">Студия</a>
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link link current"
+              <a
+                href="./portfolio.html"
+                class="site-nav__link link site-nav__link--current"
                 >Портфолио</a
               >
             </li>
@@ -59,7 +61,6 @@
         </ul>
       </div>
     </header>
-
     <main>
       <section class="section portfolio">
         <div class="container">
@@ -279,65 +280,64 @@
         </div>
       </section>
     </main>
-
-    <footer class="ftr">
+    <footer class="site-footer">
       <div class="container">
-        <div class="address-block">
+        <div>
           <a href="/" class="logo link"
-            >Web<span class="logo-studio foot">Studio</span></a
+            >Web<span class="logo logo--white">Studio</span></a
           >
           <address class="address">
             <ul>
-              <li class="contacts-item">
+              <li class="contacts__item">
                 <a
                   href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  class="location"
+                  class="location link"
                 >
-                  г. Киев, пр-т Леси Украинки, 26
+                  г. Киев, пр-т Леси Украинки, 26 &#xa0 &#xa0
                 </a>
               </li>
-              <li class="contacts-item">
-                <a href="mailto:info@devstudio.com" class="contacts-link link"
+              <li class="contacts__item">
+                <a href="mailto:info@devstudio.com" class="contacts__link link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="contacts-item">
-                <a href="tel:+380961111111" class="contacts-link link"
+              <li class="contacts__item">
+                <a href="tel:+380961111111" class="contacts__link link"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-ftr">
-          <p class="social-ftr-text">присоединяйтесь</p>
-          <ul class="card-soc-list">
-            <li class="card-soc-item">
-              <a href="" class="card-soc-link">
-                <svg class="card-soc-icon>" width="20" height="20">
+        <div class="social-footer">
+          <p class="social-footer-text">присоединяйтесь</p>
+          <ul class="card-soc__list">
+            <li class="card-soc__item">
+              <a href="" class="card-soc__link">
+                <svg class="card-soc__icon>" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="card-soc-item">
-              <a href="" class="card-soc-link">
-                <svg class="card-soc-icon>" width="20" height="20">
+            <li class="card-soc__item">
+              <a href="" class="card-soc__link">
+                <svg class="card-soc__icon>" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="card-soc-item">
-              <a href="" class="card-soc-link">
-                <svg class="card-soc-icon>" width="20" height="20">
+            <li class="card-soc__item">
+              <a href="" class="card-soc__link">
+                <svg class="card-soc__icon>" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="card-soc-item">
-              <a href="" class="card-soc-link">
-                <svg class="card-soc-icon>" width="20" height="20">
+            <li class="card-soc__item">
+              <a href="" class="card-soc__link">
+                <svg class="card-soc__icon>" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -345,24 +345,24 @@
           </ul>
         </div>
         <div class="footer-mailing">
-          <p class="social-ftr-text">Подпишитесь на рассылку</p>
-          <form>
+          <p class="social-footer-text">Подпишитесь на рассылку</p>
+          <form class="footer-mailing__form">
             <input
-              type="email"
-              name="mail"
-              id="mail"
-              class="footer-input"
-              placeholder="E-mail"
-              required
-            />
-            <button type="submit" class="hero-btn">
-              Подписаться<svg class="icon-send" width="24" height="24">
+                type="email"
+                name="mailing"
+                id="mailing"
+                class="footer-mailing__input"
+                placeholder="E-mail"
+                required
+              />
+            <button type="submit" class="button footer-mailing__btn">
+              Подписаться<svg class="footer-mailing__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </form>
         </div>
       </div>
-    </footer>
+    </footer>    
   </body>
 </html>

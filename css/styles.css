@@ -87,8 +87,9 @@ ul {
 /* ___________________________________Button___ */
 
 .button {
-  display: inline-flex;
-  padding: 10px 32px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
   font-family: inherit;
   font-style: normal;
@@ -217,7 +218,7 @@ ul {
   background-repeat: no-repeat;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -228,6 +229,10 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
+}
+
+.hero__btn {
+  padding: 10px 32px;
 }
 
 /* __________________________________________________________________FEATURES__________________________________ */
@@ -420,7 +425,7 @@ ul {
   align-items: baseline;
 }
 
-.address {
+.contacts {
   margin-top: 20px;
   font-style: normal;
   font-size: 14px;
@@ -429,13 +434,13 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.location {
-  color: var(--background-color);
-}
-
-.address .contacts__item:not(:last-child) {
+.contacts .contacts__item:not(:last-child) {
   margin-bottom: 9px;
   margin-right: 0;
+}
+
+.contacts__location {
+  color: var(--background-color);
 }
 
 /* __________Footer-social____________ */
@@ -444,7 +449,7 @@ ul {
   margin-left: 70px;
 }
 
-.social-footer-text {
+.social-footer__text {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -641,7 +646,7 @@ ul {
   transform: scale(-1, 0.3) rotate(-320deg);
 }
 
-.modal__btn--close {
+.modal__btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -656,8 +661,8 @@ ul {
   transition: fill var(--transform-type);
 }
 
-.modal__btn--close:hover,
-.modal__btn--close:focus {
+.modal__btn-close:hover,
+.modal__btn-close:focus {
   fill: var(--accent-color);
   outline: none;
 }
@@ -706,7 +711,7 @@ ul {
   fill: var(--accent-color);
 }
 
-.modal__input--wrap {
+.modal__input-wrap {
   position: relative;
 }
 
@@ -734,13 +739,10 @@ ul {
 }
 
 .modal__btn--send {
-  display: block;
-  width: 200px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 10px 55px;
 }
 
-/* ___________________Checkbox________________ */
+/* ___________________Policy________________ */
 
 .policy__field {
   margin-bottom: 30px;

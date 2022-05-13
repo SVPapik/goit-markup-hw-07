@@ -41,7 +41,7 @@ ul {
   list-style: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -52,7 +52,7 @@ ul {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 .link {
   text-decoration: none;
@@ -65,11 +65,11 @@ ul {
   fill: currentColor;
 }
 
-.container {
+/* .container {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
-}
+} */
 
 .section {
   padding: 94px 0;

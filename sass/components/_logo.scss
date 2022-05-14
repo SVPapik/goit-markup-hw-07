@@ -4,12 +4,10 @@
     font-size: 26px;
     line-height: 1.2;
     color: var(--accent-color);
-}
-
-.logo--black {
-    color: var(--black-clear-color);
-}
-
-.logo--white {
-    color: var(--background-color);
-}
+    &--black {
+        color: var(--black-clear-color);
+    }
+    &--white {
+        color: var(--background-color);
+    }
+    }

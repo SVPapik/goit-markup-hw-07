@@ -46,12 +46,11 @@
     align-items: center;
     justify-content: center;
     transition: fill var(--transform-type);
-}
-
-.modal__btn-close:hover,
-.modal__btn-close:focus {
-    fill: var(--accent-color);
-    outline: none;
+    &:hover,
+    &:focus {
+            fill: var(--accent-color);
+            outline: none;
+        }
 }
 
 .modal__title {
@@ -86,16 +85,13 @@
     border-radius: 4px;
     outline: none;
     transition: border var(--transform-type);
-}
-
-.modal__input:focus,
-.modal__input:hover {
-    border-color: var(--accent-color);
-}
-
-.modal__input:focus+.modal__icon,
-.modal__input:hover+.modal__icon {
-    fill: var(--accent-color);
+    &:focus,
+    &:hover {
+        border-color: var(--accent-color);
+        &+.modal__icon {
+            fill: var(--accent-color);
+        }
+    }
 }
 
 .modal__input-wrap {
@@ -116,13 +112,12 @@
     margin-bottom: 20px;
     padding: 12px 16px;
     resize: none;
-}
-
-.modal__comment::placeholder {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+    &::placeholder {
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.01em;
+            color: rgba(117, 117, 117, 0.5);
+        }
 }
 
 .modal__btn--send {
@@ -146,21 +141,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    content: '';
     width: 16px;
     height: 15px;
     border: 2px solid var(--title-text-color);
     border-radius: 2px;
     margin-right: 0.5rem;
     transition: background-color var(--transform-type), fill var(--transform-type);
-}
-
-.policy:focus+.policy__label .policy__checkbox {
-    border-color: var(--accent-color);
-}
-
-.policy:checked+.policy__label .policy__checkbox {
-    background-color: var(--accent-color);
-    fill: var(--background-color);
-    border: transparent;
-}
+    .policy:hover+.policy__label &,
+    .policy:focus+.policy__label & {
+        border-color: var(--accent-color);}
+    .policy:checked+.policy__label & {
+        background-color: var(--accent-color);
+        fill: var(--background-color);
+        border: transparent;
+        }
+    }

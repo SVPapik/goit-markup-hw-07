@@ -18,10 +18,9 @@
     transition: color var(--transform-type);
     transition: background-color var(--transform-type);
     transition: fill var(--transform-type);
-}
-
-.social__link:hover,
-.social__link:focus {
-    background-color: var(--accent-color);
-    fill: var(--background-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        fill: var(--background-color);
+    }
 }

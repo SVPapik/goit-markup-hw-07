@@ -33,10 +33,10 @@ ul {
 .link {
     text-decoration: none;
     transition: color var(--transform-type);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        fill: currentColor;
+    }
 }
 
-.link:hover,
-.link:focus {
-    color: var(--accent-color);
-    fill: currentColor;
-}

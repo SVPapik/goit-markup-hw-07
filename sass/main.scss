@@ -6,22 +6,21 @@
 
 @import "./components/section";
 @import "./components/button";
-@import "./components/site-header";
+@import "./components/header";
 @import "./components/logo";
 @import "./components/site-nav";
 @import "./components/contacts";
 @import "./components/social-icons";
 @import "./components/modal.scss";
+@import "./components/footer";
+@import "./components/footer-social";
+@import "./components/footer-mailing";
 
 @import "./sections/hero";
 @import "./sections/features";
 @import "./sections/work";
 @import "./sections/team";
 @import "./sections/clients";
-
-@import "./footer/site-footer";
-@import "./footer/social-footer";
-@import "./footer/footer-mailing";
 
 @import "./portfolio/filter-menu";
 @import "./portfolio/cards";

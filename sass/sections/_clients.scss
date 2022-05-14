@@ -19,11 +19,11 @@
     height: 92px;
     fill: currentColor;
     transition: color var(--transform-type);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        border-color: currentColor;
+        fill: currentColor;
+    }
 }
 
-.clients__link:hover,
-.clients__link:focus {
-    color: var(--accent-color);
-    border-color: currentColor;
-    fill: currentColor;
-}

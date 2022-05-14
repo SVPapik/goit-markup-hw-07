@@ -29,3 +29,14 @@ button {
 ul {
     list-style: none;
 }
+
+.link {
+    text-decoration: none;
+    transition: color var(--transform-type);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+    fill: currentColor;
+}

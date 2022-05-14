@@ -1,0 +1,36 @@
+.contacts__list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    color: var(--primary-text-color);
+    fill: currentColor;
+}
+
+.contacts__icon {
+    margin-right: 10px;
+}
+
+// footer-contacts
+
+.contacts {
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts .contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+    margin-right: 0;
+}
+
+.contacts__location {
+    color: var(--background-color);
+}

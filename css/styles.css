@@ -54,7 +54,7 @@ ul {
   margin: -1px;
 } */
 
-.link {
+/* .link {
   text-decoration: none;
   transition: color var(--transform-type);
 }
@@ -63,7 +63,7 @@ ul {
 .link:focus {
   color: var(--accent-color);
   fill: currentColor;
-}
+} */
 
 /* .container {
   margin: 0 auto;
@@ -71,7 +71,7 @@ ul {
   padding: 0 15px;
 } */
 
-.section {
+/* .section {
   padding: 94px 0;
 }
 
@@ -82,11 +82,11 @@ ul {
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 50px;
-}
+} */
 
 /* ___________________________________Button___ */
 
-.button {
+/* .button {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -108,22 +108,22 @@ ul {
 .button:hover,
 .button:focus {
   background-color: #188ce8;
-}
+} */
 
 /* _______________________________________________________________HEADER_____________________________________________ */
 
-.site-header {
+/* .site-header {
   border-bottom: 1px solid #ececec;
 }
 
 .site-header .container {
   display: flex;
   align-items: center;
-}
+} */
 
 /*_____________________________________________ logo____ */
 
-.logo {
+/* .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -137,11 +137,11 @@ ul {
 
 .logo--white {
   color: var(--background-color);
-}
+} */
 
 /*________________________________ site-nav + contacts___ */
 
-.site-nav {
+/* .site-nav {
   display: flex;
   margin-left: 93px;
 }
@@ -180,9 +180,9 @@ ul {
   height: 4px;
   border-radius: 2px;
   background-color: currentColor;
-}
+} */
 
-.contacts__list {
+/* .contacts__list {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -197,11 +197,11 @@ ul {
 
 .contacts__icon {
   margin-right: 10px;
-}
+} */
 
 /* __________________________________________________________________HERO______________________________________ */
 
-.hero {
+/* .hero {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -233,11 +233,11 @@ ul {
 
 .hero__btn {
   padding: 10px 32px;
-}
+} */
 
 /* __________________________________________________________________FEATURES__________________________________ */
 
-.features__list {
+/* .features__list {
   display: flex;
 }
 
@@ -271,11 +271,11 @@ ul {
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
+} */
 
 /* _______________________________________________________________WORK______________________________________________ */
 
-.section.work {
+/* .section.work {
   padding-top: 0;
 }
 
@@ -305,11 +305,11 @@ ul {
   text-transform: uppercase;
   color: var(--background-color);
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* _______________________________________________________________TEAM____________________________________________ */
 
-.team {
+/* .team {
   background-color: #f5f4fa;
 }
 
@@ -348,11 +348,11 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 16px;
-}
+} */
 
 /* _______________Social icons________ */
 
-.social__list {
+/* .social__list {
   display: flex;
   justify-content: center;
 }
@@ -378,11 +378,11 @@ ul {
 .social__link:focus {
   background-color: var(--accent-color);
   fill: var(--background-color);
-}
+} */
 
 /* _______________________________________________________CLIENTS________________________________________________ */
 
-.clients__list {
+/* .clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -410,11 +410,11 @@ ul {
   color: var(--accent-color);
   border-color: currentColor;
   fill: currentColor;
-}
+} */
 
 /* _________________________________________________________________FOOTER___________________________________________ */
 
-.site-footer {
+/* .site-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--secondary-background-color);
@@ -423,9 +423,9 @@ ul {
 .site-footer .container {
   display: flex;
   align-items: baseline;
-}
+} */
 
-.contacts {
+/* .contacts {
   margin-top: 20px;
   font-style: normal;
   font-size: 14px;
@@ -441,11 +441,11 @@ ul {
 
 .contacts__location {
   color: var(--background-color);
-}
+} */
 
 /* __________Footer-social____________ */
 
-.social-footer {
+/* .social-footer {
   margin-left: 70px;
 }
 
@@ -465,11 +465,11 @@ ul {
 .social-footer .social__link:hover,
 .social-footer .social__link:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /*__________ Footer-mailing______________ */
 
-.footer-mailing {
+/* .footer-mailing {
   display: flex;
   flex-direction: column;
   margin-left: 93px;
@@ -500,11 +500,11 @@ ul {
 
 .footer-mailing__icon {
   margin-left: 10px;
-}
+} */
 
 /*___________________________________________***PORTFOLIO***__________________________________________________- */
 
-.filter__list {
+/* .filter__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -536,11 +536,11 @@ ul {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* _________________________________________PROJECTS___________________________________ */
 
-.card__list {
+/* .card__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -607,11 +607,11 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
+} */
 
 /* ______________________________________________________*Modal-Window*________________________________ */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -744,7 +744,7 @@ ul {
 
 /* ___________________Policy________________ */
 
-.policy__field {
+/* .policy__field {
   margin-bottom: 30px;
 }
 
@@ -776,4 +776,4 @@ ul {
   background-color: var(--accent-color);
   fill: var(--background-color);
   border: transparent;
-}
+} */ 

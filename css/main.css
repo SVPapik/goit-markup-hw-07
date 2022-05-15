@@ -74,6 +74,7 @@ ul {
 }
 
 .section__title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -84,15 +85,15 @@ ul {
 
 .button {
   display: flex;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
-  font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  font-family: inherit;
+  font-style: normal;
   background-color: var(--accent-color);
   color: var(--background-color);
   border-radius: 4px;
@@ -117,6 +118,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo--black {
@@ -184,10 +186,11 @@ ul {
 
 .contacts {
   margin-top: 20px;
-  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 .contacts .contacts__item:not(:last-child) {
@@ -283,8 +286,8 @@ ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -295,6 +298,7 @@ ul {
 .modal__label {
   display: block;
   margin-bottom: 4px;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -338,6 +342,7 @@ ul {
   resize: none;
 }
 .modal__comment::placeholder {
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -403,7 +408,9 @@ ul {
 
 .social-footer__text {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
   margin-bottom: 20px;
@@ -425,7 +432,7 @@ ul {
   padding-left: 16px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--secondary-background-color);
@@ -488,6 +495,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
@@ -534,6 +542,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
   background-color: rgba(47, 48, 58, 0.8);
@@ -561,21 +570,22 @@ ul {
 }
 
 .team__title {
-  color: var(--title-text-color);
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 10px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: var(--title-text-color);
 }
 
 .team__text {
+  margin-bottom: 16px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 16px;
 }
 
 .clients__list {
@@ -663,8 +673,10 @@ ul {
   top: 0;
   height: 100%;
   padding: 63px 24px;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
+  letter-spacing: 0.03em;
   color: var(--background-color);
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
@@ -694,6 +706,7 @@ ul {
 }
 
 .card__text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
